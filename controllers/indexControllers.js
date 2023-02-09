@@ -4,5 +4,8 @@ module.exports = {
             title:"comision 19"
         });/* usaremos el metodo render para renderizar la vista */
         /* no hace falta indicar la carpeta views ni tampoco  */
+    },
+    detalle: (req,res,next)=>{
+        res.render("detalleMenu",)
     }
 }
